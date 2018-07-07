@@ -14,6 +14,9 @@ run composer install
 copy .env.example
 `wc_tasks$ cp .env.example .env`
 
+modify database by editing `.env`
+`wc_tasks$ nano .env
+
 generate key
 `wc_tasks$ php artisan key:generate`
 
